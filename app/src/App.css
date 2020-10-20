@@ -1,0 +1,59 @@
+.html {
+    background-color: red;
+}
+
+.pokedex {
+    background-color: lightgray;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px 5px black;
+    position: relative;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: red;
+}
+
+form {
+    position: absolute;
+    bottom: 20px;
+}
+
+form input{
+    padding: 10px;
+    outline: none;
+    text-align: center;
+}
+
+form button {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.center-form {
+    /* justify-content: center;  */
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+}
